@@ -1,0 +1,126 @@
+
+
+.footer_content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_content_top{
+    display: flex;
+    padding:40px 0;
+    flex-basis: 100%;
+    width: 100%;
+ 
+}
+.footer_content_top_left{
+    display: flex;
+    flex-basis: 50%;
+    width: 100%;
+    align-items: center;
+
+}
+.footer_content_top_left h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.9em;
+    text-align: left;
+    margin-left:90px;
+}
+.footer_content_top_right{
+    display: flex;
+    flex-basis: 50%;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.footer_content_top_right_newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+    padding-left: 40px;
+    border-left: 2px solid #b4d3d3;
+}
+.footer_content_top_right_newsletter p{
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.footer_content_top_right_newsletter p:hover{
+    color: #B4D3D3;
+
+}
+.footer_content_top_right_newsletter img{
+    width:20px;
+    padding-left: 20px;
+    
+}
+.footer_content_bottom{
+    display: flex;
+    padding:30px 0;
+    flex-basis: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.footer_content_bottom_left{
+    display: flex;
+    flex-basis: 50%;
+    width: 100%;
+    align-items: center;
+}
+.footer_content_bottom_right{
+    display: flex;
+    flex-basis: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer_social_icon{
+    width: 20px;
+    padding-right:10px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+.footer_social_icon:hover{
+    transform: scale(1.5);
+}
+@media (max-width:800px){
+  
+}
+@media (max-width:540px){
+    .footer_content_top_left{
+        flex-basis: 100%;
+    }
+    .footer_content_top_right{
+        flex-basis: 100%;
+    }
+    .footer_content_bottom_left{
+        flex-basis: 100%;
+    }
+    .footer_content_bottom_right{
+        flex-basis: 100%;
+     
+    }
+    .footer_content_bottom_right_icons{
+        padding-top:40px;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .footer_social_icon{
+        justify-content: center;
+    }
+    .footer_content_top_right_newsletter{
+      border-left: none;  
+    }
+    .footer_content_bottom{
+        padding-right: 0;
+        padding-left:0;
+        text-align: center;
+    }
+}
